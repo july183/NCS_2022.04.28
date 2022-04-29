@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.section{
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    @media (min-width: 1200px){ //conatiner를 기준으로 계산        
+    //  background-size:auto 100%;       
+    }
+
+}
+.sec1{
+    background-image: url(/wp/publc2/imges/bg/img_01.jpg);
+    max-height: 1058px;
+    .centerImg{
+        transform: translateY(3.3%);
+        #ticket{
+            right: 0;
+            bottom: 0;
+            transform: translate(50%, -50%);
+            }
+        #hotel{
+            left: 0;
+            bottom: 0;
+            transform: translate(-50%, -50%);
+        }
+        #Qheart{
+            right: 0;
+            bottom: 0;
+            transform: translate(110%, -175%);
+        }
+        #hfe{
+            left: 0;
+            bottom: 0;
+            transform: translate(-21%, -250%);
+        }
+        #good{
+            left: 0;
+            bottom: 0;
+            transform: translate(-58%, -530%);
+        }
+        #stars{
+            right: 0;
+            bottom: 0;
+            transform: translate(50%, 7%) rotate(90deg);
+        }
+    }
+
+}
+.sec2{
+    background-image: url(/wp/publc2/imges/bg/img_02.gif);
+    // height:48vw;
+
+    .container-lg{
+        h4{
+            line-height: 8rem ;
+        }    
+        
+        .CRA{
+            padding: 1em 0;
+            margin: 1em 0 4em 0;
+            .point{
+                .pointbox{
+                    .tl{
+                        padding: 1.2em 7em 0 0;
+                        color: #ff00bb;
+
+                        
+                        .pp{
+                            font-size: 1.8rem;    
+                            
+                        }
+                        .two{
+                            font-size: 4rem;
+                        }
+                    }
+                }
+            }
+            .coupon{
+                .couponbox{
+                    .tr{
+                        padding: 1.2em 9em 0 0;
+                        color: #00b7fc;
+                        .cp{
+                            font-size: 1.8rem;    
+                        }
+                        .twe{
+                            font-size: 4rem;
+                        }
+                        .pu{
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+        .pack{   
+            line-height: 3rem;
+            color: #ee54fe;
+            padding: 0 0 9vw 0;
+            .hop{
+                font-size: 2rem;
+                color: #db00f4;
+            }
+            .pkg{
+                color: black;
+            }
+        }
+    }
+}
+// @media(width:1114){
+
+// }
+.couponbox{
+    background-image: url(/wp/publc2/imges/coupon.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 45%;
+}
+.pointbox{
+    background-image: url(/wp/publc2/imges/money.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 40%;
+}
+.sec3{
+    background-image: url(/wp/publc2/imges/bg/img_03.gif);
+    // height:60vw;
+    .containerb{
+        transform: translate(0, -300%);
+    }
+    .on{  
+        .tebtitle{
+        background-color: white;
+        color:#222
+        }
+        .tabContent {
+            display: block !important;
+
+        }
+    }
+    .heart{
+        background-image: url(/wp/publc2/imges/heart.png) ;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: auto 70%;
+        padding: 10vw 1vw;
+        
+    }
+    .tebtitle{
+        background-color: #e881ef;
+        color:white;
+        border: 2px black solid;
+        border-bottom: 0;
+        border-radius: 30px 30px 0 0;
+        line-height: 1;
+        
+        padding: 2.5rem 0;
+        margin: 0;
+       
+    }
+    .tabContent {
+        background-color: white;
+        border: 2px black solid;
+        border-radius: 0 0 30px 30px;
+        padding: 1rem;
+        width:200%;
+        box-shadow: 2px 3px 5px 0px black;
+
+    }
+    .tabContent.cb2{
+        margin-left:-100%;
+    }
+    
+    .cb1{
+        padding-top: 1rem;
+        .stan1{
+            #stanimg{
+                padding-top: 1rem;
+                width: 100%;
+            }
+        }
+        .stan{
+            padding: 1.5rem 2rem 0 0;
+        }
+        .stan2{
+            #limit{
+                width: 25%;
+                transform: translate(-80%, -30%);
+            }
+            .limit{
+                color: white;
+                transform: translate(-140%, 20%);
+            }
+           
+        }
+        .stan3{
+            color: gray;
+            .arrow{
+                color: #db00f4;
+                font-size: 2.5rem;
+            }
+            .wen{
+                color: #222;
+                font-size: 2.5rem;
+            }
+        }
+        .stan4{
+            border: 2px black solid;
+            border-radius: 30px;
+            background-color: #db00f4;
+            color: white;
+            box-shadow: 2px 3px 5px 0px black;
+            width: 50%;
+            padding: 0.8rem;
+            margin-left: 50%;
+        }
+        .stan5{
+            #stars1{
+                right: 0;
+                bottom: 0;
+                transform: translate(-690%, -990%);
+            }
+        }
+    }
+    
+    
+}
+
+.pointbox, .couponbox {
+    background-color: white;
+    border: 3px black solid;
+    border-radius: 30px;
+}
+.point:before, .coupon:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 3px solid black;
+    border-radius: 30px;
+    top: 0;
+    right: 0%;
+    transform: translate(5%, 5%);
+}
+.pb:before{
+    background-color: rgb(255, 0, 149);
+}
+.cb:before{
+    background-color: rgb(45, 178, 255);
+}
